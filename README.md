@@ -11,6 +11,20 @@ The project utilizes:
 
 The primary file in this repository is `Mahi_Student_Performace.pbit`, a Power BI Template. Unlike a standard `.pbix` file, this template retains the complete structural foundation of the project (data models, layouts, DAX measures, and themes) while remaining lightweight, as it does not store the underlying imported data.
 
+## Dashboard Previews
+
+### 1. Student Overview
+This section provides a high-level summary of the student population, including total students, average attendance, and average marks. It also features breakdowns by semester and gender.
+![Student Overview](Student%20Overview.png)
+
+### 2. Performance Analysis
+This view dives into academic performance, showcasing subject-wise performance across different semesters and a detailed look at the average marks for specific students.
+![Performance Analysis](Performance%20Analysis.png)
+
+### 3. Attendance Analysis
+This page focuses on attendance metrics, visualizing average attendance by department and highlighting students with low attendance across different semesters using a treemap.
+![Attendance Analysis](Attendance%20Analysis.png)
+
 ## Repository Contents
 The `Mahi_Student_Performace.pbit` file acts as a compressed package that includes all the necessary configurations to rebuild the dashboard. Its internal structure includes:
 * **DataModelSchema:** The relational structure and logic mapping for the dashboard's data.
